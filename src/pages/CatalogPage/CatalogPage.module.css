@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 64px;
+  padding: 48px 64px 52px 64px;
+}
+
+@media screen and (max-width: 1439px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 24px;
+    margin: 24px auto 40px auto;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .container {
+    padding: 0 14px;
+    margin: 20px auto 24px auto;
+  }
+}

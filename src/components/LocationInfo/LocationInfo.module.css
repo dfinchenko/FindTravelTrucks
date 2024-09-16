@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.iconWrap {
+  margin-right: 4px;
+  margin-bottom: 2px;
+  line-height: 0%;
+}
+
+.icon {
+  line-height: 0%;
+}
+
+.line {
+  border-bottom: 1px solid #101828;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

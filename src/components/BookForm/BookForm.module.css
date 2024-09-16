@@ -1,0 +1,141 @@
+.wrap {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 44px 57px;
+  width: 640px;
+  min-height: 588px;
+}
+
+.main {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 8px;
+  color: #101828;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 24px;
+  color: #6c717b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.field {
+  border-radius: 12px;
+  padding: 18px;
+  width: 527px;
+  height: 60px;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.field:focus {
+  border: 1px solid #e44848;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.comment {
+  border-radius: 10px;
+  padding: 18px 308px 76px 18px;
+  width: 527px;
+  height: 118px;
+  resize: none;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.field:focus,
+.comment:focus {
+  border: 1px solid #e44848;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.btn {
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background-color: #e44848;
+  color: #fff;
+  transition: background-color 500ms linear;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #d84343;
+}
+
+.error {
+  color: #e44848;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .wrap {
+    width: 327px;
+    padding: 24px 18px;
+  }
+
+  .field {
+    padding: 14px;
+    width: 300px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+
+  .comment {
+    border-radius: 10px;
+    padding: 14px;
+    width: 300px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 374px),
+  screen and (min-resolution: 2dppx) and (max-width: 374px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 374px) {
+  .wrap {
+    width: 292px;
+    padding: 24px 10px;
+  }
+
+  .field {
+    padding: 14px;
+    width: 274px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+
+  .comment {
+    border-radius: 10px;
+    padding: 14px;
+    width: 274px;
+  }
+}
+
+/* .react-datepicker {
+  font-family: 'Inter', sans-serif !important;
+  color: #101828 !important;
+  background: #fff !important;
+}
+.field .react-datepicker .react-datepicker__header {
+  background: #fff !important;
+  color: #101828;
+}
+
+.react-datepicker__day--selected {
+  background: #475467 !important;
+  color: #f7f7f7;
+} */
